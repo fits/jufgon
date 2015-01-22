@@ -1,0 +1,23 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+subprojects {
+	apply plugin: 'java'
+	sourceCompatibility = rootProject.sourceCompatibility
+}
+
+project(':example') {
+	apply plugin: 'application'
+
+	repositories {
+		jcenter()
+	}
+
+	dependencies {
+		compile rootProject
+		compile 'org.projectlombok:lombok:1.14.8'
+	}
+
+	mainClassName = 'Example'
+}
