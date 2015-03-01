@@ -5,11 +5,11 @@ Java 8 utility method library
 ## Build
 
 ```
-> gradle build
+> gradlew build
 ```
 
 ## Example
 
 ```
-> gradle run
+> gradlew run
 ```
