@@ -1,0 +1,15 @@
+# Jufgon
+
+Java 8 utility method library
+
+## Build
+
+```
+> gradle build
+```
+
+## Example
+
+```
+> gradle run
+```
